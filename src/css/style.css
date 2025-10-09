@@ -302,7 +302,6 @@ header {
   .card-calendar {
     background-color: #f9fafb;
     width: 450px;
-    /* height: 450px; */
     padding: 30px 30px;
     display: flex;
     gap: 120px;
