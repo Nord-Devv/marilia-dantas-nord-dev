@@ -389,7 +389,7 @@ header {
   .container-swiper4 {
     position: relative;
     margin: 0 auto;
-    height: 47vh;
+    height: 500px;
     max-width: 1350px;
     width: 100%;
     background: #ffffff;
@@ -412,11 +412,12 @@ header {
       flex-direction: column;
       gap: 5px;
       height: 35%;
+      padding: 0 7px;
       p {
         font-size: 15px;
       }
       h3{
-        font-size: 17px;
+        font-size: 20px;
       }
     }
 
@@ -430,7 +431,7 @@ header {
     }
     .swiper-slide {
       font-family: "Montserrat", sans-serif;
-      padding: 0px 0px 20px;
+      padding: 0px 0px 5px;
       font-size: 18px;
       background: #f1f1f1;
       text-align: center;
