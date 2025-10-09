@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+  header {
+    img {
+      width: 100px;
+    }
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+    }
+    li {
+      font-size: 15px;
+    }
+  }
+  .logo {
+    width: 250px;
+  }
+}

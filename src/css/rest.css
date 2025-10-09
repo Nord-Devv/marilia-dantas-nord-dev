@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Bodoni Moda", serif; */
+/* font-family: "Montserrat", sans-serif; */
+@font-face {
+  font-family: 'Glacial Indiferent';
+  src: url("/src/fonts/glacial-indifference/GlacialIndifference-Bold.otf") format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Glacial Indiferent';
+  src: url("/src/fonts/glacial-indifference/GlacialIndifference-Regular.otf") format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+/* font-family: 'Glacial Indiferent', sans-serif; */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
