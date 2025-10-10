@@ -66,8 +66,8 @@ var swiper4 = new Swiper(".mySwiper4", {
       grid: { rows: 1 },
     },
   },
-  autoplay: { delay: 6000, },
-  loop: true,
+  // autoplay: { delay: 6000, },
+  // loop: true,
 });
 
 const lenis = new Lenis({
