@@ -62,6 +62,10 @@ var swiper4 = new Swiper(".mySwiper4", {
       grid: { rows: 1 },
     },
     960: {
+      slidesPerView: 3,
+      grid: { rows: 1 },
+    },
+    1440: {
       slidesPerView: 4,
       grid: { rows: 1 },
     },
