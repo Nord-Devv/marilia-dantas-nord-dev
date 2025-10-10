@@ -483,50 +483,6 @@ header {
       border-radius: 5px;
     }
   }
-
-}
-  .swiper-slide {
-    position: relative;
-    min-height: 470px;
-    font-family: "Montserrat", sans-serif;
-    padding: 0px 0px 5px;
-    font-size: 18px;
-    background: #f1f1f1;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 5px;
-  }
-
-.slider {
-  width: 100%;
-  overflow: hidden;
-  background-color: #ffffff;
-}
-
-.infinite-slider {
-  display: inline-flex;
-  animation: slider 35s linear infinite;
-}
-
-.text {
-  padding: 5px;
-  font-family: "Bebas Neue", cursive;
-  white-space: nowrap;
-  font-size: 7rem;
-  margin-right: 100px;
-}
-
-@keyframes slider {
-  0% {
-    transform: translateX(0%);
-  }
-
-  100% {
-    transform: translateX(-50%);
-  }
 }
 
 
