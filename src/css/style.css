@@ -433,9 +433,10 @@ header {
   .title-slide {
     display: flex;
     flex-direction: column;
+    text-align: start;
     gap: 5px;
     height: 35%;
-    padding: 0 7px;
+    padding: 0 20px;
     margin: 0px 0px 25px;
     p {
       font-size: 15px;
