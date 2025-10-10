@@ -412,7 +412,7 @@ header {
   .container-swiper4 {
   position: relative;
   margin: 0 auto;
-  height: 500px;
+  min-height: 470px !important;
   max-width: 1350px;
   width: 100%;
   background: #ffffff;
@@ -436,23 +436,25 @@ header {
     gap: 5px;
     height: 35%;
     padding: 0 7px;
+    margin: 0px 0px 25px;
     p {
       font-size: 15px;
     }
     h3 {
-      font-size: 20px;
+      font-size: 18px;
     }
   }
 
   .img-container {
     border-radius: 5px;
-    height: 65%;
+    height: 100%;
     img {
       border-radius: 5px;
       width: 100%;
     }
   }
   .swiper-slide {
+    min-height: 470px;
     font-family: "Montserrat", sans-serif;
     padding: 0px 0px 5px;
     font-size: 18px;
@@ -460,9 +462,8 @@ header {
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 70px;
     border-radius: 5px;
   }
 }
