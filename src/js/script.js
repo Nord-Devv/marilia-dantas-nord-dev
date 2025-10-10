@@ -61,7 +61,7 @@ var swiper4 = new Swiper(".mySwiper4", {
       slidesPerView: 2,
       grid: { rows: 1 },
     },
-    960: {
+    1100: {
       slidesPerView: 3,
       grid: { rows: 1 },
     },
