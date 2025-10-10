@@ -19,19 +19,53 @@
 @media (max-width: 768px) {
   header {
     img {
-      width: 100px;
+      width: 180px;
     }
     ul {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 15px;
+      gap: 30px;
     }
     li {
-      font-size: 15px;
+      font-size: 16px;
     }
   }
-  .logo {
-    width: 250px;
+}
+
+@media (max-width: 650px) {
+  header {
+    height: 160px;
+    .container-header {
+      flex-direction: column;
+      gap: 20px;
+
+      a {
+        width: 100%;
+
+        img {
+          width: 200px;
+        }
+      }
+      ul {
+        width: 100%;
+        justify-content: space-between;
+        padding: 0 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  header {
+    a {
+      img {
+        padding: 10px 0;
+      }
+    }
+
+    .container-header {
+      ul {
+        padding: 0;
+        gap: 0;
+      }
+    }
   }
 }
