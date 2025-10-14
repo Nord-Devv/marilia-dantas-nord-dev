@@ -1,4 +1,3 @@
-
 var swiper1 = new Swiper(".mySwiper1", {
   direction: "vertical",
   slidesPerView: 1,
@@ -18,37 +17,20 @@ var swiper2 = new Swiper(".mySwiper2", {
   breakpoints: {
     320: {
       slidesPerView: 1,
-      grid: { rows: 3 },
+      grid: { rows: 1 },
     },
     640: {
       slidesPerView: 2,
-      grid: { rows: 2 },
+      grid: { rows: 1 },
     },
     1024: {
-      slidesPerView: 3,
-      grid: { rows: 2 },
-    },
-  },
-  autoplay: true,
-});
-var swiper3 = new Swiper(".mySwiper3", {
-  spaceBetween: 30,
-  breakpoints: {
-    320: { // mobile
-      slidesPerView: 1,
-      grid: { rows: 2 },
-    },
-    640: { // tablets
-      slidesPerView: 2,
-      grid: { rows: 3 },
-    },
-    960: { // desktops
       slidesPerView: 3,
       grid: { rows: 1 },
     },
   },
   autoplay: true,
 });
+
 
 var swiper4 = new Swiper(".mySwiper4", {
   spaceBetween: 30,
@@ -57,7 +39,7 @@ var swiper4 = new Swiper(".mySwiper4", {
       slidesPerView: 1,
       grid: { rows: 1 },
     },
-    640: { // tablets
+    640: { 
       slidesPerView: 2,
       grid: { rows: 1 },
     },
@@ -71,7 +53,7 @@ var swiper4 = new Swiper(".mySwiper4", {
     },
   },
   // autoplay: { delay: 6000, },
-  // loop: true,
+  loop: true,
 });
 
 const lenis = new Lenis({
