@@ -489,6 +489,14 @@ footer {
         margin-bottom: 12px;
       }
     }
+    .nord-dev{
+      font-size: 18px ;
+
+      a{
+        font-weight: 700;
+        color: rgb(224, 149, 36);
+      }
+    }
   }
 
   .brand-section {
